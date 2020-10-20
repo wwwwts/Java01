@@ -175,7 +175,8 @@ public class Zye {
                     }
                     System.out.println("请选择您要点赞的菜品序号：");
                     int priaiseNum= input.nextInt();
-                    praiseNums[priaiseNum-1]++;//点赞数加1
+                    praiseNums[priaiseNum-1]++;
+                    //点赞数加1
                     System.out.println("点赞成功！");
                     break;
 
